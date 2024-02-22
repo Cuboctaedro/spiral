@@ -9,9 +9,10 @@ i18n:
   default_locale: en
 collections:
   - name: 'pages'
-    label: 'Pages'
+    label: 'Page'
     folder: 'content/pages'
     create: true
+    i18n: true
     fields: 
       - label: "Title"
         name: "title"
@@ -34,7 +35,7 @@ collections:
         editor_components:
           - image
   - name: 'posts'
-    label: 'Blog'
+    label: 'Blog Post'
     folder: 'content/posts'
     create: true
     i18n: true
@@ -63,7 +64,7 @@ collections:
         editor_components:
           - image
   - name: 'events'
-    label: 'Events'
+    label: 'Event'
     folder: 'content/events'
     create: true
     i18n: true
