@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
     "next": "14.1.0",
     "next-international": "^1.2.4",
+    "raw-loader": "^4.0.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
